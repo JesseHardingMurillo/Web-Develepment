@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+.punteado{
+    border-style: dotted;
+    /* Superior , derecha , inferior , izquierda */
+    border-width: 10px 5px 3px 2px;
+    /* Superior , derecha , inferior , izquierda */
+    /* Esto tambien aplica para los colores */
+    border-color: crimson hotpink gold lime;
+}
+.discontinuo{
+    border-style: dashed;
+    /* Borde delgado */
+    border-width:thin;
+    border-color: #2b95d6;
+}
+.solido{
+    /* Superior , derecha , inferior , izquierda */
+    /* Esto tambien aplica para los bordes reondeados */
+    border: solid red;
+    border-width: medium;
+    border-radius: 5px;
+}  
+.doble{
+    border: double; 
+    border-width: thick;
+}
+.surco{
+    border: 10px groove;
+}
+.cresta{
+    border: 10px ridge;
+}
+.recuadro{
+    border: 10px inset;
+}
+.outset{
+    border: 10px outset;
+}
+.sin_b{
+    border: none;
+}
+.oculto{
+    border: hidden\;
+}
+.mixto{
+    border-style: dotted solid dashed double;
+}
+.redondeado{
+    border: 5px solid blueviolet;
+    border-radius:10px 0px 10px 0px;
+}

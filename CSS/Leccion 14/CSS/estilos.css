@@ -1,0 +1,13 @@
+body{
+    color: #FA58B6;
+    /*background-color: #050013;   
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center; */
+    background: #050013 url("img/background.jpg") no-repeat center;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    background-color: #270082;
+}

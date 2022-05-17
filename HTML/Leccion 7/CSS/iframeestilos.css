@@ -1,0 +1,26 @@
+.titulo {
+    color: #f72585;
+    text-align: center;
+}
+.marco{
+    width: 100%;
+    height: 200px;
+    border:1px solid #f72585;
+    /* border:none */
+}
+.centrar{
+    text-align: center;
+}
+.boton{
+    background-color: white;
+    border: 2px solid #457b91;
+    text-decoration: none;
+    /* Pore ser un link se comporta como bloque pero con el display
+    respeta las propiedades de margin y padding */
+    display: inline-block;
+    padding: 10px;
+}
+.boton:hover{
+    background-color:#457b91;
+    color: white;
+}

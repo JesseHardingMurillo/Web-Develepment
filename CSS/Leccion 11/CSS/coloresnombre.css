@@ -1,0 +1,31 @@
+/* Colores por nombre en CSS */
+h1{
+    text-align: center;
+}
+h2{
+    color:white;
+}
+
+.rojo{
+    background-color: firebrick;
+
+}
+.rosa{
+    background-color: hotpink;
+}
+.amarillo{
+    background-color:gold;
+    color:black;
+}
+.violeta{
+    background-color:blueviolet;
+}
+.verde{
+    background-color:lime;
+    color:black;
+}
+.azul{
+    background-color:turquoise;
+    color:black;
+
+}

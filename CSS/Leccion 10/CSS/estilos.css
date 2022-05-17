@@ -1,0 +1,26 @@
+/* Selector universal */
+*{
+    background-color: ghostwhite;
+    color:cornflowerblue;
+}
+/* elemento id */
+#titulo{
+    color:crimson;
+    text-align: center;
+}
+/* como crear una clase */
+.centrar{
+    text-align: center;
+}
+.text_big{
+    font-size: 20px;
+}
+/* Agrupas elementos */
+h1,h2,p{
+    color: crimson;
+    text-align: center;
+}
+/* subclase */
+p.derecha{
+    text-align: right;
+}

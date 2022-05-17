@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universidad HTML</title>
+    <!-- Lo que se esta haciendo es definir las caracteriscas(color y otras propiedes) al inicio -->
+    <!-- Lo mas normal es que estas propiedades se hagan en un archivo externo de css(lo que esta comentado) -->
+    <!-- <style>
+      h1{
+        color:blue
+      }
+      p{
+        color:white;
+        background-color: grey;
+      }
+    </style> -->
+    <!-- Ahora lo que se hace es agregar un link que nos conecte con el archivo CSS -->
+    <link rel='stylesheet' href="css/estilos.css"/>
+    <!-- Si se denimona un color en el HTML se tomara mas importancia que en el archivo CSS -->
+    <style>
+      h1{
+        color: blue;
+      }
+    </style>
+  </head>
+  <body style='background-color: lightsalmon;'>
+    <!-- Y si se camabia el color en el titulo por ejemplo h1 apesar que en otro lugar se le haya dado ciertas caracteristicas tendra prioridad las escritas en el h1 -->
+    <h1 style="background-color: lightcoral;">
+      Universidad HTML
+    </h1>
+
+    <p>Bienvenidos a CSS</p>
+    <p>Saludos!</p>
+    <br/>
+   
+    <a href="contenido.html">Ir a contenido</a>
+
+  </body>
+</html>

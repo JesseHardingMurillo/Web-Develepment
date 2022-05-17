@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet"> 
+    <title>Tablas en HTML</title>
+</head>
+<body>
+    <!-- Primero se declara la tabla -->
+    
+    <table>
+        <!-- Para agregar un titulo a la tabla se usa caption -->
+        <caption>Listado de Personas</caption>
+        <!-- Nuevo renglon -->
+        <tr>
+            <!-- Cabecero de la tabla -->
+            <!-- Primera columna -->
+            <!-- para unir dos celdas se usa el atributo colspan -->
+            <!-- <th colspan="2">Nombre</th> -->
+            <th>Nombre</th>
+            <!-- Segunda columna -->
+            <th>Apellido</th>
+            <!-- Tercera columna -->
+            <th>Email</th>
+        </tr>
+        <!-- Agrego otro rennglon -->
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <!-- Para unir dos renglones se ysa rowspan -->
+            <!-- <td rowspan="2">jperez@mail.com</td> -->
+            <td>jperez@mail.com</td>
+        </tr>
+        <tr>
+            <td>María</td>
+            <td>Lara</td>
+            <td>mlara@mail.com</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Juarez</td>
+            <td>cjuarez@mail.com</td>
+        </tr>
+        <tr>
+            <td>Karla</td>
+            <td>Esparza</td>
+            <td>kesparza@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html>

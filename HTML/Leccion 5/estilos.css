@@ -1,0 +1,41 @@
+/* Para hacer que la tabla abarque todo el espacio */
+table{
+    width: 100%;
+
+}
+table,th,td{
+    border: 1px solid black;
+    /* Se quita las separaciones de los bordes, pero se se quiere hacer mas ancho el vorde
+    no puede estar colapsado */
+    border-collapse: collapse;
+    /* border-spacing:3px; */
+    padding: 5px;
+}
+td{
+    text-align:center;
+}
+/* th{
+    text-align:left;
+} */
+caption{
+    color: #e63946;
+    font-family: 'Trocchi',serif;
+    font-size: 25px;
+    line-height: 70px;
+}
+th{
+    color: white;
+    background-color: #1d3557
+}
+/*Para modificar los renglones pares*/
+/* Si se coloca odd es impar*/
+tr:nth-child(even){
+    background-color: #f1faee
+
+}
+/* Renglones impares */
+tr:nth-child(odd){
+
+    background-color: #a8dadc
+
+}

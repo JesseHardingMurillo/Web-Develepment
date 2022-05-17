@@ -1,0 +1,30 @@
+h1{
+    color: darkred
+}
+p{
+    color:white;
+    background-color: firebrick;
+    /* El padding hace mas grande como el  back graund */
+    padding: 20px;
+    /* Border como su paralabra lo indica hace un borde */
+    border: 10px solid powderblue;
+    /* El margin es para crear una separacion */
+    /* Si solo se coloca la parabra margin border o pading eso se va aaplicar iguale en todos los lados y arriba ya abajo */
+    /* margin:50px; */
+    /* Pero si se quiere especificar se hace de la siguente manera */
+    /* Margin top es para arriba */
+    /* margin-top: 40px; */
+    /* Margin right es para la derecha */
+    /* margin-right:10px; */
+    /* Margin bottom es para abajo */
+    /* margin-bottom:20px; */
+    /* Margin left es para la izquierda */
+    /* margin-left: 30px; */
+    /* Tambien existe la siguiente forma */
+    /* margin:40px 10px 20px 30px */
+    /* Para centrar de manera horizontal se utiliza lo siguiente: */
+    margin:auto 50px;
+    /* Pero aplican marfen superior e inferior */
+    /* Para centrar el parrafo se hace lo siguiente: */
+    text-align:center;
+}  
